@@ -49,7 +49,7 @@ const Hero = () => {
       >
         <div className="relative z-index-[5] h-[90%] w-[85%]">
           <figure className="items-center flex justify-center w-full">
-            <img src="/src/assets/Kelvin's profile-img.jpg" alt="Vershima Kelvin"  className="rounded-full h-auto max-w-[430px] w-full"/>
+            <img src="/Kelvin's profile-img.jpg" alt="Vershima Kelvin"  className="rounded-full h-auto max-w-[430px] w-full"/>
           </figure>
         </div>
         <div className="absolute z-[1] w-[50%] h-[50%] rounded-full bottom-40 white__gradient"></div>
