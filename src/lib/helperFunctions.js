@@ -66,7 +66,7 @@ function generatePRQuery(repos, username) {
             id
             title
             state
-            number
+            number  
             createdAt
             url
             additions

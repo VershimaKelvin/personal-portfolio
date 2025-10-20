@@ -48,7 +48,9 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <div className="relative z-index-[5] h-[90%] w-[85%]">
-          <Lottie {...defaultOptions} />
+          <figure className="items-center flex justify-center w-full">
+            <img src="/src/assets/Kelvin's profile-img.jpg" alt="Vershima Kelvin"  className="rounded-full h-auto max-w-[430px] w-full"/>
+          </figure>
         </div>
         <div className="absolute z-[1] w-[50%] h-[50%] rounded-full bottom-40 white__gradient"></div>
       </div>

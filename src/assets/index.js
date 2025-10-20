@@ -34,6 +34,15 @@ import chargeswap from "./chargeswap.png";
 import placeicon from "./place-icon.svg";
 import recruitment from "./recruitment.png";
 import huntly from "./huntly.png";
+import fourcore from "./fourcore.jpeg";
+import kelvin from "./KELVIN.svg";
+import occupy from "./occupy.png";
+import crutech from "./crutech.jpeg";
+import aptech from "./aptech.png"
+import hng from "./hng.png";
+import idec from "./idec.jpeg";
+import vreg from "./vreg.jpeg";
+import nbms from "./nbms.jpeg";
 import oracle from "./oracle.jpg";
 import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
@@ -86,6 +95,15 @@ export {
   recruitment,
   huntly,
   oracle,
+  occupy,
+  fourcore,
+  crutech,
+  aptech,
+  hng,
+  idec,
+  vreg,
+  nbms,
+  kelvin,
   comicify_ai,
   greentrust,
   averlon,
@@ -97,5 +115,5 @@ export {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
 };

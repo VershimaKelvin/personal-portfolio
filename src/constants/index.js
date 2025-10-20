@@ -26,7 +26,15 @@ import {
   dennisivy,
   manipal,
   icon,
-  ethforall
+  ethforall,
+  occupy,
+  fourcore,
+  crutech,
+  aptech,
+  hng,
+  nbms,
+  idec,
+  vreg
 } from "../assets";
 
 import {
@@ -36,28 +44,16 @@ import {
   AiFillMail,
   AiOutlineTwitter,
   AiFillHtml5,
-  AiOutlineGitlab,
+  AiOutlineJava,
 } from "react-icons/ai";
 
 import {
-  SiDjango,
-  SiJavascript,
-  SiBootstrap,
-  SiReact,
-  SiTailwindcss,
-  SiGraphql,
-  SiPython,
-  SiCplusplus,
-  SiC,
-  SiRubyonrails,
   SiJquery,
-  SiVisualstudiocode,
   SiPostman,
   SiGit,
   SiMysql,
   SiSolidity,
   SiNetlify,
-  SiChartdotjs,
   SiVite,
   SiArduino,
   SiWeb3Dotjs,
@@ -65,18 +61,45 @@ import {
   SiDotnet,
   SiTwilio,
   SiFlutter,
-  SiReplit,
-  SiFlask,
   SiFigma,
   SiGooglemaps,
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
-  SiMicrosoftazure
+  SiDocker,
+  SiArtixlinux,
+  SiJunit5,
+  SiSwagger,
+  SiGithubactions,
+  SiAppium,
+  SiReact,
+  SiTailwindcss,
+  SiFlask,
+  SiBootstrap,
+  SiRubyonrails,
+  SiJavascript,
+  SiDjango,
+  SiReplit,
+  SiChartdotjs,
+  SiGraphql,
+  SiPython,
+  SiCplusplus,
+  SiC,
+  SiJira,
+  SiJenkins,
+  SiApachejmeter,
+  SiSelenium,
+  SiPlaystation5,
 } from "react-icons/si";
+
+
+import { BiLogoVisualStudio } from "react-icons/bi";
+
 
 import {
   FaHardHat,
+  FaJenkins,
+  FaLinux,
   FaRust
 } from "react-icons/fa";
 
@@ -88,12 +111,13 @@ import {
   FaGolang
 } from "react-icons/fa6";
 
-import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
+import { DiCss3, DiDart, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const resumeLink =
+  "https://drive.google.com/file/d/16qZ2Ioc47FiS493ICzAG9bee1uyzN29h/view?usp=sharing";
+export const repoLink = "https://github.com/VershimaKelvin";
 
-export const callToAction = "https://www.linkedin.com/in/mittal-parth";
+export const callToAction = "https://www.linkedin.com/in/vershima-kelvin-09bb0a1a0/";
 
 export const navLinks = [
   {
@@ -113,10 +137,6 @@ export const navLinks = [
     title: "Projects",
   },
   {
-    id: "openSource",
-    title: "Open Source",
-  },
-  {
     id: "extraCurricular",
     title: "Extra Curricular",
   },
@@ -130,20 +150,23 @@ export const navLinks = [
 export const educationList = [
   {
     id: "education-1",
-    icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
+    icon: crutech,
+    title: "Cross River University of Technology, Calabar, Nigeria",
+    degree: "Bachelor of Science(B.Sc) in Computer Science",
+    duration: "January 2016 - August 2020",
+    content1:
+      "Relevant Coursework:  Software Engineering, Database Management Systems, Data Structures & Algorithms, Artificial Intelligence",
+    content2:
+      "Final Year Project:  Designed and implemented a Registration and Clearance Guide mobile app for Computer Science department students, integrating Google Maps API to provide real-time campus navigation and location-based directioning",
   },
   {
     id: "education-2",
-    icon: pba,
-    title: "Polkadot Blockchain Academy",
-    degree: "",
-    duration: "May 2024 - June 2024",
-    content1: "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+    icon: aptech,
+    title: "Aptech Computer Education, Nigeria",
+    degree: "Professional Training – Java Programming",
+    duration: "April 2019 - September 2019",
+    content1:
+      "Completed an intensive Java programming course covering OOP concepts, data structures, exception handling, and JDBC, laying the foundation for later automation scripting in QA frameworks.",
   },
 ];
 
@@ -231,59 +254,14 @@ export const skills = [
     items: [
       {
         id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
+        icon: DiDart,
+        name: "Dart",
       },
       {
         id: "pl-2",
-        icon: SiPython,
-        name: "Python",
-      },
-      {
-        id: "pl-3",
-        icon: SiCplusplus,
-        name: "C++",
-      },
-      {
-        id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
-      },
-      {
-        id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
-      },
-      {
-        id: "pl-6",
         icon: DiJava,
         name: "Java",
       },
-      {
-        id: "pl-7",
-        icon: SiC,
-        name: "C",
-      },
-      {
-        id: "pl-8",
-        icon: AiFillHtml5,
-        name: "HTML",
-      },
-      {
-        id: "pl-9",
-        icon: DiCss3,
-        name: "CSS",
-      },
-      {
-        id: "pl-10",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-      {
-        id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
-      }
     ],
   },
   {
@@ -291,43 +269,13 @@ export const skills = [
     items: [
       {
         id: "f-1",
-        icon: SiDjango,
-        name: "Django",
+        icon: SiBootstrap,
+        name: "Playwright",
       },
       {
         id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "f-3",
-        icon: SiReact,
-        name: "ReactJS",
-      },
-      {
-        id: "f-4",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "f-5",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
-      },
-      {
-        id: "f-6",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-      {
-        id: "f-7",
-        icon: SiGraphql,
-        name: "GraphQL",
-      },
-      {
-        id: "f-8",
-        icon: SiDotnet,
-        name: ".NET",
+        icon: SiAppium,
+        name: "Appium",
       },
     ],
   },
@@ -336,13 +284,13 @@ export const skills = [
     items: [
       {
         id: "t-1",
-        icon: SiMicrosoftazure,
-        name: "Azure",
+        icon: SiFigma,
+        name: "Figma",
       },
       {
         id: "t-2",
-        icon: SiMysql,
-        name: "MySQL",
+        icon: SiSwagger,
+        name: "Swagger",
       },
       {
         id: "t-3",
@@ -351,7 +299,7 @@ export const skills = [
       },
       {
         id: "t-4",
-        icon: SiVisualstudiocode,
+        icon: BiLogoVisualStudio,
         name: "VS Code",
       },
       {
@@ -366,18 +314,33 @@ export const skills = [
       },
       {
         id: "t-7",
-        icon: AiOutlineGitlab,
-        name: "Gitlab",
+        icon: FaLinux,
+        name: "Linux CMD",
       },
       {
         id: "t-8",
-        icon: SiNetlify,
-        name: "Netlify",
+        icon: SiDocker,
+        name: "Docker",
       },
       {
         id: "t-9",
-        icon: SiVite,
-        name: "ViteJS",
+        icon: SiJunit5,
+        name: "JUnit",
+      },
+      {
+        id: "t-10",
+        icon: FaJenkins,
+        name: "Jenkis",
+      },
+      {
+        id: "t-11",
+        icon: SiGithubactions,
+        name: "GitHub actions",
+      },
+      {
+        id: "t-12",
+        icon: SiJira,
+        name: "Jira",
       },
     ],
   },
@@ -386,453 +349,226 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
-    organisation: "Oracle, India",
-    logo: oracle,
-    link: "https://www.oracle.com/in/",
+    organisation: "4Core Integrated Service, Abuja, Nigeria",
+    logo: fourcore,
+    link: "https://4coretech.com/",
     positions: [
       {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Present",
+        title: "Senior QA Engineer",
+        duration: "January 2025 - Present",
         content: [
           {
-            text: "Working in the DBaaS Control Plane team in the Database Unit.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
-        content: [
-          {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
+            text: "Partnered with government stakeholders to define acceptance criteria and ensure alignment between functional requirements, compliance standards, and technical implementation.",
             link: "",
           },
           {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
-            link: ""
-          }
+            text: "Led QA efforts on major government automation projects, establishing QA policies, compliance checklists, and risk-based testing strategies to ensure delivery of secure and regulation-compliant systems.",
+            link: "",
+          },
+          {
+            text: "Directed end-to-end validation of digital platforms such as the National Blood Management System and the Import Duty Exemption System, focusing on data integrity, process automation accuracy, and citizen-facing usability.",
+            link: "",
+          },
         ],
       },
     ],
   },
   {
-    organisation: "Averlon",
-    logo: averlon,
-    link: "https://averlon.ai/",
+    organisation: "Occupy Technologies, Abuja, Nigeria",
+    logo: occupy,
+    link: "https://www.occupyestate.com/",
     positions: [
       {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
+        title: "QA Automation Engineer",
+        duration: "November 2023 - January 2025",
         content: [
           {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
-            link: ""
+            text: "Designed and maintained automated test suites using Playwright for web applications and Appium for mobile platforms, increasing test coverage and reducing manual testing efforts",
+            link: "",
           },
           {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-            link: ""
-          }
+            text: "Configured and maintained CI/CD pipelines using Jenkins and Docker to automate build, test, and deployment workflows for both web and mobile applications.",
+            link: "",
+          },
+          {
+            text: "Conducted extensive API testing using Postman, validating key product functionalities to ensure system reliability.",
+            link: "",
+          },
         ],
       },
     ],
   },
   {
-    organisation: "IRIS, NITK",
-    logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
+    organisation: "HNG Tech",
+    logo: hng,
+    link: "https://genz.ad/",
     positions: [
       {
-        title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
+        title: "QA Engineer",
+        duration: "August 2022 - January 2023",
         content: [
           {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
+            text: "Designed and developed comprehensive test plans and test cases in Zephyr, clearly defining objectives, scope, resources, and timelines to ensure robust test coverage for AI image generation software.",
             link: "",
           },
           {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
+            text: "Automated REST API tests using Postman and Newman, reducing manual testing time by 60% and increasing API test coverage by 20% through early defect detection.",
             link: "",
           },
-        ],
-      },
-      {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
-        content: [
           {
-            text: "Managed a team of 6 student developers while also overlooking multiple modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
-        content: [
-          {
-            text: "Added Conditional Fields support to the Forms Module.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
-        content: [
-          {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
+            text: "Integrated a CI/CD pipeline using GitHub Actions to automatically run regression test scripts on each pull request, ensuring consistent code quality and early detection of defects before deployment.",
             link: "",
           },
         ],
       },
     ],
-  }
+  },
 ];
 
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
-    image: comicify_ai,
+    title: "National Blood Management System - Federal Ministry of Health",
+    github: "#",
+    link: "https://nbsc.gov.ng/",
+    image: nbms,
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "Automated 200+ test cases for blood collection, storage, and transfusion workflows using Playwright (web) achieving a 70% defect detection rate pre-release.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: AiOutlineJava,
+        name: "Java",
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiPlaystation5,
+        name: "Playwright",
       },
       {
         id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI"
+        icon: SiPostman,
+        name: "Postman",
       },
       {
         id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
+        icon: SiJenkins,
+        name: "Jenkins",
       },
       {
         id: "icon-5",
-        icon: SiFlask,
-        name: "Flask"
+        icon: SiDocker,
+        name: "Docker",
       },
     ],
   },
   {
     id: "project-2",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
-    image: greentrust,
+    title: "Import Duty Exemption Certificate System - Ministry of Finance",
+    github: "#",
+    link: "https://www.idec.gov.ng/",
+    image: idec,
     content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
+      "Validated high-volume transaction workflows for customs duty exemptions, ensuring accuracy of tax computations and approval workflows. as well as creating automation scripts for regression and smoke tests, increasing release confidence and reducing post-release defects by 35%",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: AiOutlineJava,
+        name: "Java",
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
+        icon: SiPostman,
+        name: "Postman",
       },
       {
         id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js"
+        icon: SiApachejmeter,
+        name: "Jmeter",
       },
       {
         id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS"
+        icon: SiJenkins,
+        name: "Jenkins",
       },
       {
         id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity"
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
+        icon: SiGit,
+        name: "SiGit",
       },
     ],
   },
   {
     id: "project-3",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
-    image: chargeswap,
+    title:
+      "Vehicle Registry System(VREG) - National Vehicle Registry, Federal Ministry of Finance",
+    github: "#",
+    link: "https://vreg.gov.ng/",
+    image: vreg,
     content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
+      "Validated VIN registration workflows for both individual and agent accounts, covering single-VIN and bulk-VIN uploads, catching over 600 validation errors in HS Codes, VIN formats, and agent details before production launch. Conducted end-to-end payment flow tests using OTP verification and invoice generation, ensuring zero transaction failures under 5,000 simulated concurrent requests.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React"
+        icon: AiOutlineJava,
+        name: "Java",
       },
       {
         id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js"
+        icon: SiPostman,
+        name: "Postman",
       },
       {
         id: "icon-4",
-        icon: SiSolidity,
-        name: "Solidity"
+        icon: SiSelenium,
+        name: "Selenium",
       },
       {
         id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat"
+        icon: FaJenkins,
+        name: "Jenkins",
       },
       {
         id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS"
-      },
-      {
-        id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino"
-      },
-      {
-        id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol"
+        icon: SiDocker,
+        name: "Docker",
       },
     ],
   },
   {
     id: "project-4",
-    title: "Samsotech Table Management System",
+    title: "Occupy - Estate-centric Logistics Platform",
     github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: placeicon,
+    link: "https://occupyestate.com",
+    image: occupy,
     content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
+      "Designed and executed functional and regression test suites for customer, rider, and supermarket dashboards, identifying defects across cart grouping, order assignment, and inventory synchronization workflows before public launch. Validated location- based product discovery and delivery routing, simulating estate - level traffic and delivery delays to ensure accurate ETAs and successful last - mile delivery.",
     stack: [
       {
         id: "icon-1",
-        icon: SiDotnet,
-        name: "Dot Net Core MVC 6"
+        icon: AiOutlineJava,
+        name: "Java",
       },
       {
         id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
+        icon: SiPlaystation5,
+        name: "Playwright",
       },
       {
         id: "icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server"
+        icon: SiAppium,
+        name: "Appium",
       },
       {
         id: "icon-4",
-        icon: SiJquery,
-        name: "jQuery"
+        icon: SiPostman,
+        name: "Postman",
       },
       {
         id: "icon-5",
-        icon: SiTwilio,
-        name: "Twillio"
-      },
-    ],
-  },
-  {
-    id: "project-5",
-    title: "Non-Teaching Recruitment Portal, NITK",
-    github: "",
-    link: "http://recruitment.nitk.ac.in/",
-    image: recruitment,
-    content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-    ],
-  },
-  {
-    id: "project-6",
-    title: "Career Development Centre, NITK Website",
-    github: "",
-    link: "http://cdc.nitk.ac.in/",
-    image: cdc,
-    content:
-      "The official website of CDC, NITK with a custom built CMS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
-    ],
-  },
-  {
-    id: "project-7",
-    title: "Huntly",
-    github: "",
-    link: "https://devfolio.co/projects/huntly-b5a9",
-    image: huntly,
-    content:
-      "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django Rest Framework"
-      },
-      {
-        id: "icon-2",
-        icon: SiFlutter,
-        name: "Flutter"
-      },
-      {
-        id: "icon-3",
-        icon: SiReplit,
-        name: "Replit"
-      },
-      {
-        id: "icon-4",
-        icon: SiFlask,
-        name: "Flask"
-      },
-      {
-        id: "icon-5",
-        icon: SiFigma,
-        name: "Figma"
-      },
-      {
-        id: "icon-6",
-        icon: SiGooglemaps,
-        name: "Google Maps API"
-      },
-    ],
-  },
-  {
-    id: "project-8",
-    title: "Cluboard",
-    github: "https://github.com/mittal-parth/Cluboard",
-    link: "",
-    image: cluboard,
-    content:
-      "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      },
-      {
-        id: "icon-4",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
-      {
-        id: "icon-5",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-6",
-        icon: SiChartdotjs,
-        name: "Chart.js"
-      },
-    ],
-  },
-  {
-    id: "project-9",
-    title: "Cash Flow Minimiser",
-    github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
-    link: "https://minimise-cash-flow.netlify.app/",
-    image: cash_flow,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-10",
-    title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
-    link: "https://parthmittal.netlify.app/",
-    image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS"
-      },
-      {
-        id: "icon-3",
-        icon: AiFillHtml5,
-        name: "HTML"
+        icon: SiGit,
+        name: "Git",
       },
     ],
   },
@@ -977,36 +713,6 @@ export const extraCurricular = [
     ],
     logo: genesis,
   },
-  {
-    id: 4,
-    organisation: "IRIS, NITK",
-    title: "Tutor",
-    duration: "Jan 2022 - Jan 2022",
-    content: [
-      {
-        text: "Mentored 150+ students in a month-long Web Development and Ruby on Rails Bootcamp",
-        link: "https://github.com/IRIS-NITK/IRIS-RoR-Bootcamp-2021",
-      },
-    ],
-    logo: iris,
-  },
-  {
-    id: 5,
-    organisation: "E-Cell, NITK",
-    title: "Executive Member",
-    duration: "Sep 2021 - Apr 2022",
-    content: [
-      {
-        text: "Organised the season 3 of the E-Cell NITK Podcast",
-        link: "https://www.youtube.com/watch?v=uA-Yrk6bVDc",
-      },
-      {
-        text: "Member of the Sponsorship and E-Talks team for E-Summit'22",
-        link: "",
-      },
-    ],
-    logo: ecell,
-  },
 ];
 
 // Links to your social media profiles
@@ -1014,37 +720,35 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/mittal-parth",
+    link: "https://www.linkedin.com/in/vershima-kelvin-09bb0a1a0/",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/mittal-parth",
+    link: "https://github.com/VershimaKelvin",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:mittalparth22@gmail.com",
+    link: "mailto:kelvinityavyar@gmail.com",
   },
   {
     id: "social-media-4",
     icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/mittalparth_",
+    link: "https://x.com/vershimakelvin?t=ymwbEYDCUccwvgSnnkXFHQ&s=09",
   },
-  {
-    id: "social-media-5",
-    icon: AiFillInstagram,
-    link: "https://www.instagram.com/mittalparth_",
-  },
+
 ];
 
 // Your professional summary
 export const aboutMe = {
-    name: "Parth Mittal",
-    githubUsername: 'mittal-parth',
-    tagLine: "MTS-1 @Oracle | ex-SDE Intern @Averlon | ex-Tech Lead @IRIS,NITK | ETHIndia'22 Winner | NITK'24",
-    intro: "Software Developer from India who is either busy improving his craft or pondering over the next big idea."
-}
+  name: "Vershima Kelvin",
+  githubUsername: "Vershima Kelvin",
+  tagLine:
+    "Senior Quality Assurance Engineer",
+  intro:
+    "QA Engineer by day. Java Developer by night. Flutter Developer at heart. I code, therefore I am.",
+};
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
 export const itemsToFetch = 20;
