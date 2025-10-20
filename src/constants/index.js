@@ -269,8 +269,8 @@ export const skills = [
     items: [
       {
         id: "f-1",
-        icon: SiBootstrap,
-        name: "Playwright",
+        icon: SiSelenium,
+        name: "Selenium",
       },
       {
         id: "f-2",
@@ -443,8 +443,8 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: SiPlaystation5,
-        name: "Playwright",
+        icon: SiSelenium,
+        name: "Selenium",
       },
       {
         id: "icon-3",
@@ -515,6 +515,11 @@ export const projects = [
         name: "Java",
       },
       {
+        id: "icon-2",
+        icon: SiSelenium,
+        name: "Selenium",
+      },
+      {
         id: "icon-3",
         icon: SiPostman,
         name: "Postman",
@@ -552,8 +557,8 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: SiPlaystation5,
-        name: "Playwright",
+        icon: SiSelenium,
+        name: "Selenium",
       },
       {
         id: "icon-3",
