@@ -34,7 +34,8 @@ import {
   hng,
   nbms,
   idec,
-  vreg
+  vreg,
+  cbtas
 } from "../assets";
 
 import {
@@ -431,7 +432,7 @@ export const projects = [
     id: "project-1",
     title: "National Blood Management System - Federal Ministry of Health",
     github: "#",
-    link: "https://nbsc.gov.ng/",
+    link: "https://portal.nbms.gov.ng/login",
     image: nbms,
     content:
       "Automated 200+ test cases for blood collection, storage, and transfusion workflows using Playwright (web) achieving a 70% defect detection rate pre-release.",
@@ -549,6 +550,42 @@ export const projects = [
     image: occupy,
     content:
       "Designed and executed functional and regression test suites for customer, rider, and supermarket dashboards, identifying defects across cart grouping, order assignment, and inventory synchronization workflows before public launch. Validated location- based product discovery and delivery routing, simulating estate - level traffic and delivery delays to ensure accurate ETAs and successful last - mile delivery.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: AiOutlineJava,
+        name: "Java",
+      },
+      {
+        id: "icon-2",
+        icon: SiSelenium,
+        name: "Selenium",
+      },
+      {
+        id: "icon-3",
+        icon: SiAppium,
+        name: "Appium",
+      },
+      {
+        id: "icon-4",
+        icon: SiPostman,
+        name: "Postman",
+      },
+      {
+        id: "icon-5",
+        icon: SiGit,
+        name: "Git",
+      },
+    ],
+  },
+  {
+    id: "project-5",
+    title: "Central Billing System (CBTAS)",
+    github: "",
+    link: "https://nigerigr.ngsirs.gov.ng/",
+    image: cbtas,
+    content:
+      "Led the end-to-end QA process for the Central Billing and Tax Administration System, ensuring compliance with business logic, financial accuracy, and regulatory standards. Designed and executed manual and automated test cases for modules including taxpayer registration, billing, payment processing, and audit trails.",
     stack: [
       {
         id: "icon-1",
@@ -696,29 +733,12 @@ export const extraCurricular = [
       },
       {
         text: "Co-designed and developed the official website of Incident, NITK with 15K+ visitors",
-        link: "https://incident.nitk.ac.in/",
+        link: "",
       },
     ],
     logo: gdsc,
   },
-  {
-    id: 3,
-    organisation: "Genesis, NITK",
-    title: "Competitions Head",
-    duration: "Sep 2021 - Present",
-    content: [
-      {
-        text: "Qualified for the nationals of Indian Hip Hop Dance Championship",
-        link: "",
-      },
-      {
-        text: "Won 7 inter-college solo dance competitions",
-        link: "",
-      },
-    ],
-    logo: genesis,
-  },
-];
+  ];
 
 // Links to your social media profiles
 export const socialMedia = [

@@ -36,6 +36,7 @@ import recruitment from "./recruitment.png";
 import huntly from "./huntly.png";
 import fourcore from "./fourcore.jpeg";
 import kelvin from "./KELVIN.svg";
+import cbtas from "./cbtas.jpeg";
 import occupy from "./occupy.png";
 import crutech from "./crutech.jpeg";
 import aptech from "./aptech.png"
@@ -98,6 +99,7 @@ export {
   occupy,
   fourcore,
   crutech,
+  cbtas,
   aptech,
   hng,
   idec,
