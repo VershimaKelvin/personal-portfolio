@@ -39,10 +39,10 @@ import kelvin from "./KELVIN.svg";
 import cbtas from "./cbtas.jpeg";
 import occupy from "./occupy.png";
 import crutech from "./crutech.jpeg";
-import aptech from "./aptech.png"
+import aptech from "./aptech.png";
 import hng from "./hng.png";
 import idec from "./idec.jpeg";
-import vreg from "./vreg.jpeg";
+import vreg from "./vreg.png";
 import nbms from "./nbms.jpeg";
 import oracle from "./oracle.jpg";
 import comicify_ai from "./comicify-ai.png";
@@ -57,6 +57,8 @@ import dennisivy from "./dennisivy.png";
 import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
+import wacs from "./wacs.png";
+import naptas from "./naptas.png";
 
 export {
   quotes,
@@ -105,6 +107,8 @@ export {
   idec,
   vreg,
   nbms,
+  wacs,
+  naptas,
   kelvin,
   comicify_ai,
   greentrust,

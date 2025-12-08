@@ -35,7 +35,9 @@ import {
   nbms,
   idec,
   vreg,
-  cbtas
+  cbtas,
+  wacs,
+  naptas,
 } from "../assets";
 
 import {
@@ -93,24 +95,13 @@ import {
   SiPlaystation5,
 } from "react-icons/si";
 
-
 import { BiLogoVisualStudio } from "react-icons/bi";
 
+import { FaHardHat, FaJenkins, FaLinux, FaRust } from "react-icons/fa";
 
-import {
-  FaHardHat,
-  FaJenkins,
-  FaLinux,
-  FaRust
-} from "react-icons/fa";
+import { IoIosNotificationsOutline } from "react-icons/io";
 
-import {
-  IoIosNotificationsOutline
-} from "react-icons/io";
-
-import {
-  FaGolang
-} from "react-icons/fa6";
+import { FaGolang } from "react-icons/fa6";
 
 import { DiCss3, DiDart, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
@@ -118,7 +109,8 @@ export const resumeLink =
   "https://drive.google.com/file/d/16qZ2Ioc47FiS493ICzAG9bee1uyzN29h/view?usp=sharing";
 export const repoLink = "https://github.com/VershimaKelvin";
 
-export const callToAction = "https://www.linkedin.com/in/vershima-kelvin-09bb0a1a0/";
+export const callToAction =
+  "https://www.linkedin.com/in/vershima-kelvin-09bb0a1a0/";
 
 export const navLinks = [
   {
@@ -181,7 +173,8 @@ export const achievements = [
     content1: "Top 12 winners among 20k+ registrations",
     content2: "One of Polygon's Best Public Goods",
     content3: "Best Module on Biconomy SDK",
-    article: "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
+    article:
+      "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
     project: "https://devfolio.co/projects/chargeswap-3527",
     youtube: "https://youtu.be/9rieTya8Yds?t=3908",
   },
@@ -190,7 +183,8 @@ export const achievements = [
     icon: polkadot,
     event: "Polkadot Hackathon: Europe Edition",
     position: "2nd Runner Up in the ink! Smart Contract Category",
-    content1: "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
+    content1:
+      "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
     content2: "",
     content3: "",
     github: "https://github.com/pranav2305/GreenTrust",
@@ -210,7 +204,8 @@ export const achievements = [
     icon: dennisivy,
     event: "September Hackathon by Dennis Ivy",
     position: "Winner",
-    content1: "Rated the best portfolio website among 450+ participants across the globe.",
+    content1:
+      "Rated the best portfolio website among 450+ participants across the globe.",
     content2: "",
     content3: "",
     youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
@@ -222,7 +217,8 @@ export const achievements = [
     event: "Manipal Hackathon'22",
     position: "Consolation Prize",
     content1: "Top 10 among 500+ teams across India",
-    content2: "Developed a cross-platform mobile application to address the problem of social cohesion.",
+    content2:
+      "Developed a cross-platform mobile application to address the problem of social cohesion.",
     content3: "",
     article: "https://shorturl.at/exEIQ",
   },
@@ -231,7 +227,8 @@ export const achievements = [
     icon: icon,
     event: "ICON Hyperbuild Hackathon",
     position: "Honorable Mention",
-    content1: "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
+    content1:
+      "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
     content2: "",
     content3: "",
     project: "https://devpost.com/software/green-trust-xj2w6g",
@@ -241,7 +238,8 @@ export const achievements = [
     icon: ethforall,
     event: "ETHForAll 2023",
     position: "Top 3 Superfluid Projects",
-    content1: "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
+    content1:
+      "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
     content2: "",
     content3: "",
     project: "https://devfolio.co/projects/green-trust-ed14",
@@ -580,10 +578,82 @@ export const projects = [
   },
   {
     id: "project-5",
-    title: "Central Billing System (CBTAS)",
+    title: "Central Billing and Tax Administration System (CBTAS)",
     github: "",
     link: "https://nigerigr.ngsirs.gov.ng/",
     image: cbtas,
+    content:
+      "Led the end-to-end QA process for the Central Billing and Tax Administration System, ensuring compliance with business logic, financial accuracy, and regulatory standards. Designed and executed manual and automated test cases for modules including taxpayer registration, billing, payment processing, and audit trails.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: AiOutlineJava,
+        name: "Java",
+      },
+      {
+        id: "icon-2",
+        icon: SiSelenium,
+        name: "Selenium",
+      },
+      {
+        id: "icon-3",
+        icon: SiAppium,
+        name: "Appium",
+      },
+      {
+        id: "icon-4",
+        icon: SiPostman,
+        name: "Postman",
+      },
+      {
+        id: "icon-5",
+        icon: SiGit,
+        name: "Git",
+      },
+    ],
+  },
+  {
+    id: "project-6",
+    title: "Workers Aggregated Credit Scheme (WACS)",
+    github: "",
+    link: "https://wacs.ippis.gov.ng/",
+    image: wacs,
+    content:
+      "Led the end-to-end QA process for the Central Billing and Tax Administration System, ensuring compliance with business logic, financial accuracy, and regulatory standards. Designed and executed manual and automated test cases for modules including taxpayer registration, billing, payment processing, and audit trails.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: AiOutlineJava,
+        name: "Java",
+      },
+      {
+        id: "icon-2",
+        icon: SiSelenium,
+        name: "Selenium",
+      },
+      {
+        id: "icon-3",
+        icon: SiAppium,
+        name: "Appium",
+      },
+      {
+        id: "icon-4",
+        icon: SiPostman,
+        name: "Postman",
+      },
+      {
+        id: "icon-5",
+        icon: SiGit,
+        name: "Git",
+      },
+    ],
+  },
+  {
+    id: "project-7",
+    title: "National Payroll Tax Aggregation & Settlement System (NAPTAS)",
+    github: "",
+    link: "",
+    image: naptas,
     content:
       "Led the end-to-end QA process for the Central Billing and Tax Administration System, ensuring compliance with business logic, financial accuracy, and regulatory standards. Designed and executed manual and automated test cases for modules including taxpayer registration, billing, payment processing, and audit trails.",
     stack: [
@@ -627,15 +697,15 @@ export const blogPosts = [
     tags: [
       {
         id: "tag-1",
-        name: "tag 01"
+        name: "tag 01",
       },
       {
         id: "tag-2",
-        name: "tag 03"
+        name: "tag 03",
       },
       {
         id: "tag-3",
-        name: "tag 03"
+        name: "tag 03",
       },
     ],
   },
@@ -648,15 +718,15 @@ export const blogPosts = [
     tags: [
       {
         id: "tag-1",
-        name: "tag 01"
+        name: "tag 01",
       },
       {
         id: "tag-2",
-        name: "tag 03"
+        name: "tag 03",
       },
       {
         id: "tag-3",
-        name: "tag 03"
+        name: "tag 03",
       },
     ],
   },
@@ -669,15 +739,15 @@ export const blogPosts = [
     tags: [
       {
         id: "tag-1",
-        name: "tag 01"
+        name: "tag 01",
       },
       {
         id: "tag-2",
-        name: "tag 03"
+        name: "tag 03",
       },
       {
         id: "tag-3",
-        name: "tag 03"
+        name: "tag 03",
       },
     ],
   },
@@ -738,7 +808,7 @@ export const extraCurricular = [
     ],
     logo: gdsc,
   },
-  ];
+];
 
 // Links to your social media profiles
 export const socialMedia = [
@@ -762,15 +832,13 @@ export const socialMedia = [
     icon: AiOutlineTwitter,
     link: "https://x.com/vershimakelvin?t=ymwbEYDCUccwvgSnnkXFHQ&s=09",
   },
-
 ];
 
 // Your professional summary
 export const aboutMe = {
   name: "Vershima Kelvin",
   githubUsername: "Vershima Kelvin",
-  tagLine:
-    "Senior Quality Assurance Engineer",
+  tagLine: "Senior Quality Assurance Engineer",
   intro:
     "QA Engineer by day. Java Developer by night. Flutter Developer at heart. I code, therefore I am.",
 };
@@ -778,5 +846,9 @@ export const aboutMe = {
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
 export const itemsToFetch = 20;
 
-// Add names of GitHub repos you'd like to display open source contributions from in the 'org/repo' format. 
-export const includedRepos = ['publiclab/plots2', 'zulip/zulip', 'paritytech/polkadot-sdk'];
+// Add names of GitHub repos you'd like to display open source contributions from in the 'org/repo' format.
+export const includedRepos = [
+  "publiclab/plots2",
+  "zulip/zulip",
+  "paritytech/polkadot-sdk",
+];
