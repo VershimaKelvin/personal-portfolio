@@ -38,6 +38,7 @@ import {
   cbtas,
   wacs,
   naptas,
+  elite,
 } from "../assets";
 
 import {
@@ -347,6 +348,31 @@ export const skills = [
 
 // Add your current/past professional work experience here
 export const experiences = [
+  {
+    organisation: "Elite Software Automation",
+    logo: elite,
+    link: "https://elitesoftwareautomation.com/",
+    positions: [
+      {
+        title: "Senior QA Engineer",
+        duration: "January 2025 - Present",
+        content: [
+          {
+            text: "Partnered with government stakeholders to define acceptance criteria and ensure alignment between functional requirements, compliance standards, and technical implementation.",
+            link: "",
+          },
+          {
+            text: "Led QA efforts on major government automation projects, establishing QA policies, compliance checklists, and risk-based testing strategies to ensure delivery of secure and regulation-compliant systems.",
+            link: "",
+          },
+          {
+            text: "Directed end-to-end validation of digital platforms such as the National Blood Management System and the Import Duty Exemption System, focusing on data integrity, process automation accuracy, and citizen-facing usability.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
   {
     organisation: "4Core Integrated Service, Abuja, Nigeria",
     logo: fourcore,

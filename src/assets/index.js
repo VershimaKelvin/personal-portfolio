@@ -44,6 +44,7 @@ import hng from "./hng.png";
 import idec from "./idec.jpeg";
 import vreg from "./vreg.png";
 import nbms from "./nbms.jpeg";
+import elite from "./elite.png";
 import oracle from "./oracle.jpg";
 import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
@@ -121,5 +122,6 @@ export {
   dennisivy,
   manipal,
   icon,
+  elite,
   ethforall,
 };
