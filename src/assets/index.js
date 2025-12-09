@@ -59,6 +59,8 @@ import manipal from "./manipal.png";
 import icon from "./icon.jpg";
 import ethforall from "./ethforall.png";
 import wacs from "./wacs.png";
+import tpsms from "./tpsms.png";
+import c4h from "./c4h.png";
 import naptas from "./naptas.png";
 
 export {
@@ -101,6 +103,8 @@ export {
   oracle,
   occupy,
   fourcore,
+  tpsms,
+  c4h,
   crutech,
   cbtas,
   aptech,

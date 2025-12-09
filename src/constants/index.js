@@ -39,6 +39,8 @@ import {
   wacs,
   naptas,
   elite,
+  c4h,
+  tpsms,
 } from "../assets";
 
 import {
@@ -678,8 +680,80 @@ export const projects = [
     id: "project-7",
     title: "National Payroll Tax Aggregation & Settlement System (NAPTAS)",
     github: "",
-    link: "",
+    link: "http://138.68.91.89:5900/",
     image: naptas,
+    content:
+      "Led the end-to-end QA process for the Central Billing and Tax Administration System, ensuring compliance with business logic, financial accuracy, and regulatory standards. Designed and executed manual and automated test cases for modules including taxpayer registration, billing, payment processing, and audit trails.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: AiOutlineJava,
+        name: "Java",
+      },
+      {
+        id: "icon-2",
+        icon: SiSelenium,
+        name: "Selenium",
+      },
+      {
+        id: "icon-3",
+        icon: SiAppium,
+        name: "Appium",
+      },
+      {
+        id: "icon-4",
+        icon: SiPostman,
+        name: "Postman",
+      },
+      {
+        id: "icon-5",
+        icon: SiGit,
+        name: "Git",
+      },
+    ],
+  },
+  {
+    id: "project-8",
+    title: "Charity 4 Humanity (C4H)",
+    github: "",
+    link: "",
+    image: c4h,
+    content:
+      "Led the end-to-end QA process for the Central Billing and Tax Administration System, ensuring compliance with business logic, financial accuracy, and regulatory standards. Designed and executed manual and automated test cases for modules including taxpayer registration, billing, payment processing, and audit trails.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: AiOutlineJava,
+        name: "Java",
+      },
+      {
+        id: "icon-2",
+        icon: SiSelenium,
+        name: "Selenium",
+      },
+      {
+        id: "icon-3",
+        icon: SiAppium,
+        name: "Appium",
+      },
+      {
+        id: "icon-4",
+        icon: SiPostman,
+        name: "Postman",
+      },
+      {
+        id: "icon-5",
+        icon: SiGit,
+        name: "Git",
+      },
+    ],
+  },
+  {
+    id: "project-9",
+    title: "Third Party Settlement System (TPSMS)",
+    github: "",
+    link: "",
+    image: tpsms,
     content:
       "Led the end-to-end QA process for the Central Billing and Tax Administration System, ensuring compliance with business logic, financial accuracy, and regulatory standards. Designed and executed manual and automated test cases for modules including taxpayer registration, billing, payment processing, and audit trails.",
     stack: [
