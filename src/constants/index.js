@@ -96,6 +96,8 @@ import {
   SiApachejmeter,
   SiSelenium,
   SiPlaystation5,
+  SiRuby,
+  SiKotlin,
 } from "react-icons/si";
 
 import { BiLogoVisualStudio } from "react-icons/bi";
@@ -647,7 +649,7 @@ export const projects = [
     link: "https://wacs.ippis.gov.ng/",
     image: wacs,
     content:
-      "Led the end-to-end QA process for the Central Billing and Tax Administration System, ensuring compliance with business logic, financial accuracy, and regulatory standards. Designed and executed manual and automated test cases for modules including taxpayer registration, billing, payment processing, and audit trails.",
+      "Established a structured defect triage process with engineering, product, and architecture teams, improving resolution speed and prioritization alignment. Applied risk-based testing to focus coverage on high-impact business modules, resulting in a 25% reduction in post-production incidents. Delivered detailed test reports, quality metrics dashboards, and go-live recommendations for leadership.",
     stack: [
       {
         id: "icon-1",
@@ -656,13 +658,13 @@ export const projects = [
       },
       {
         id: "icon-2",
-        icon: SiSelenium,
-        name: "Selenium",
+        icon: SiPython,
+        name: "Python",
       },
       {
         id: "icon-3",
-        icon: SiAppium,
-        name: "Appium",
+        icon: SiRuby,
+        name: "Ruby",
       },
       {
         id: "icon-4",
@@ -683,12 +685,12 @@ export const projects = [
     link: "http://138.68.91.89:5900/",
     image: naptas,
     content:
-      "Led the end-to-end QA process for the Central Billing and Tax Administration System, ensuring compliance with business logic, financial accuracy, and regulatory standards. Designed and executed manual and automated test cases for modules including taxpayer registration, billing, payment processing, and audit trails.",
+      "Managed quality assurance for a high-throughput transaction settlement system, ensuring data integrity, compliance, and performance under load. Conducted extensive functional, data validation, and performance testing using JMeter, identifying bottlenecks that improved system throughput by 40%. Implemented QA checklists, release gates, and UAT coordination with cross-functional teams.",
     stack: [
       {
         id: "icon-1",
-        icon: AiOutlineJava,
-        name: "Java",
+        icon: SiPython,
+        name: "Python",
       },
       {
         id: "icon-2",
@@ -697,8 +699,8 @@ export const projects = [
       },
       {
         id: "icon-3",
-        icon: SiAppium,
-        name: "Appium",
+        icon: AiOutlineJava,
+        name: "Java",
       },
       {
         id: "icon-4",
@@ -707,8 +709,8 @@ export const projects = [
       },
       {
         id: "icon-5",
-        icon: SiGit,
-        name: "Git",
+        icon: SiC,
+        name: "C#",
       },
     ],
   },
@@ -719,12 +721,12 @@ export const projects = [
     link: "",
     image: c4h,
     content:
-      "Led the end-to-end QA process for the Central Billing and Tax Administration System, ensuring compliance with business logic, financial accuracy, and regulatory standards. Designed and executed manual and automated test cases for modules including taxpayer registration, billing, payment processing, and audit trails.",
+      "Designed and implemented a robust automation framework using Playwright/Selenium, enabling cross-browser UI testing and reusable modular components. Automated over 80% of regression scenarios for critical journeys such as authentication, cart & checkout, and user profile management. Reduced manual regression load by 60% and improved defect detection rate pre-production.",
     stack: [
       {
         id: "icon-1",
-        icon: AiOutlineJava,
-        name: "Java",
+        icon: SiKotlin,
+        name: "Kotlin",
       },
       {
         id: "icon-2",
@@ -733,18 +735,18 @@ export const projects = [
       },
       {
         id: "icon-3",
-        icon: SiAppium,
-        name: "Appium",
+        icon: SiJavascript,
+        name: "Javascript",
       },
       {
         id: "icon-4",
-        icon: SiPostman,
-        name: "Postman",
+        icon: SiJira,
+        name: "Jira",
       },
       {
         id: "icon-5",
-        icon: SiGit,
-        name: "Git",
+        icon: SiPostman,
+        name: "Postman",
       },
     ],
   },
@@ -755,12 +757,12 @@ export const projects = [
     link: "",
     image: tpsms,
     content:
-      "Led the end-to-end QA process for the Central Billing and Tax Administration System, ensuring compliance with business logic, financial accuracy, and regulatory standards. Designed and executed manual and automated test cases for modules including taxpayer registration, billing, payment processing, and audit trails.",
+      "Spearheaded the full QA lifecycle for a microservices-based customer onboarding platform, defining test strategy, coverage metrics, and automation architecture. Designed and executed API, integration, and contract tests across services handling identity verification, KYC workflows, and risk-scoring. Collaborated with DevOps to integrate automated regression suites into CI/CD, reducing release cycle time by 35%.",
     stack: [
       {
         id: "icon-1",
-        icon: AiOutlineJava,
-        name: "Java",
+        icon: SiJira,
+        name: "Jira",
       },
       {
         id: "icon-2",
@@ -774,13 +776,18 @@ export const projects = [
       },
       {
         id: "icon-4",
-        icon: SiPostman,
-        name: "Postman",
+        icon: SiJenkins,
+        name: "Jenkins",
       },
       {
         id: "icon-5",
         icon: SiGit,
         name: "Git",
+      },
+      {
+        id: "icon-6",
+        icon: SiRuby,
+        name: "Ruby",
       },
     ],
   },
