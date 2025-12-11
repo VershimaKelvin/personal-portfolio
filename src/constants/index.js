@@ -649,7 +649,7 @@ export const projects = [
     link: "https://wacs.ippis.gov.ng/",
     image: wacs,
     content:
-      "Established a structured defect triage process with engineering, product, and architecture teams, improving resolution speed and prioritization alignment. Applied risk-based testing to focus coverage on high-impact business modules, resulting in a 25% reduction in post-production incidents. Delivered detailed test reports, quality metrics dashboards, and go-live recommendations for leadership.",
+      "Led the structured defect triage process across engineering, product, and architecture teams, improving issue prioritization and accelerating resolution for loan eligibility, repayment scheduling, and worker credit assessment workflows. Applied risk-based testing strategies using Java, Python, and Ruby to target high-impact modules such as credit scoring, loan approval logic, integrations with payroll data sources, and repayment deductions.",
     stack: [
       {
         id: "icon-1",
@@ -685,7 +685,7 @@ export const projects = [
     link: "http://138.68.91.89:5900/",
     image: naptas,
     content:
-      "Managed quality assurance for a high-throughput transaction settlement system, ensuring data integrity, compliance, and performance under load. Conducted extensive functional, data validation, and performance testing using JMeter, identifying bottlenecks that improved system throughput by 40%. Implemented QA checklists, release gates, and UAT coordination with cross-functional teams.",
+      "Managed quality assurance for a high-throughput transaction settlement system, ensuring data integrity, compliance, and performance under load. Conducted extensive functional, data validation, anLed end-to-end QA activities for a high-volume payroll tax aggregation and settlement platform, ensuring accuracy of financial computations, data integrity across services, and compliance with regulatory workflows.",
     stack: [
       {
         id: "icon-1",
@@ -721,7 +721,7 @@ export const projects = [
     link: "",
     image: c4h,
     content:
-      "Designed and implemented a robust automation framework using Playwright/Selenium, enabling cross-browser UI testing and reusable modular components. Automated over 80% of regression scenarios for critical journeys such as authentication, cart & checkout, and user profile management. Reduced manual regression load by 60% and improved defect detection rate pre-production.",
+      "Engineered a modular, scalable automation framework using Kotlin, Selenium, and JavaScript, supporting cross-browser UI testing and reusable test components across the Charity 4 Humanity platform. Automated more than 80% of regression flows, including authentication, donation checkout, beneficiary management, and user profile journeys, significantly reducing manual testing efforts.",
     stack: [
       {
         id: "icon-1",
@@ -757,7 +757,7 @@ export const projects = [
     link: "",
     image: tpsms,
     content:
-      "Spearheaded the full QA lifecycle for a microservices-based customer onboarding platform, defining test strategy, coverage metrics, and automation architecture. Designed and executed API, integration, and contract tests across services handling identity verification, KYC workflows, and risk-scoring. Collaborated with DevOps to integrate automated regression suites into CI/CD, reducing release cycle time by 35%.",
+      "Built a scalable test automation framework using Ruby + Selenium for web flows and Appium for mobile components. Implemented reusable page objects, data-driven test layers, and CI/CD-triggered regression suites integrated via Jenkins, increasing test coverage across onboarding and settlement modules.",
     stack: [
       {
         id: "icon-1",
