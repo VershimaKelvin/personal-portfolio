@@ -362,15 +362,15 @@ export const experiences = [
         duration: "January 2025 - Present",
         content: [
           {
-            text: "Partnered with government stakeholders to define acceptance criteria and ensure alignment between functional requirements, compliance standards, and technical implementation.",
+            text: "Championed Quality Engineering maturity across teams, introducing shift-left testing practices, static analysis workflows, automated API validation, and continuous quality gates that prevented critical defects from entering UAT or production.",
             link: "",
           },
           {
-            text: "Led QA efforts on major government automation projects, establishing QA policies, compliance checklists, and risk-based testing strategies to ensure delivery of secure and regulation-compliant systems.",
+            text: "Led automation of complex workflow engines powering permit approvals, regulatory applications, and inter-agency data exchanges ensuring end-to-end accuracy, auditability, and policy compliance through deterministic and data-driven test suites.",
             link: "",
           },
           {
-            text: "Directed end-to-end validation of digital platforms such as the National Blood Management System and the Import Duty Exemption System, focusing on data integrity, process automation accuracy, and citizen-facing usability.",
+            text: "Mentored QA and automation engineers, overseeing test strategy formulation, code reviews for automation scripts, and implementation of best practices for performance, reliability, and resilience testing.",
             link: "",
           },
         ],
